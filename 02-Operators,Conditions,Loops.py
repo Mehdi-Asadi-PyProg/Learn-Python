@@ -38,3 +38,35 @@ y = False
 print(f"{x} and {y}", x and y)
 print(f"{x} or {y} ",x or y)
 print(f"not {y} ",not y)
+
+# IF Statment
+print("-" * 50)
+
+age = 17
+if age < 13 :
+    print("You Are a Child")
+elif age < 18:
+    print("You Are a Teenager")
+else:
+    print("You Are Adult")
+
+# For Loops
+print("-" * 50)
+for i in range (10,1,-1):
+    print(i)
+
+str = "Hello World I'M New In Programming"
+for i in str :
+    print(i)
+
+# While Loops
+count = 0
+while count < 5 :
+    print(count)
+    count = count+1
+
+# Loop Control Statements
+
+# break  ----> the break statement exits the loop permanently
+# continue --> the continue statement skips the current iteration and continues with next round of current loop
+# pass   ----> the pass statement is a null operator and does nothing
