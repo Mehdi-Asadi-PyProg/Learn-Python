@@ -1,0 +1,7 @@
+Hello World
+this is a sample writing into a file
+ This line is appended to the file 
+First line 
+Second line 
+Third line
+Forth Line

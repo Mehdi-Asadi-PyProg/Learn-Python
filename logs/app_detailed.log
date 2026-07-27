@@ -1,0 +1,8 @@
+2026-07-26 15:25:28,314 | INFO     | my_app.database | <module>:142 | Connected to database
+2026-07-26 15:25:28,314 | WARNING  | my_app.api | <module>:143 | API rate limit almost reached
+2026-07-26 15:25:28,314 | ERROR    | my_app | divide:155 | Division by zero occurred!
+Traceback (most recent call last):
+  File "e:\codes\Learn-Python\14-logging.py", line 153, in divide
+    return a / b
+           ~~^~~
+ZeroDivisionError: division by zero

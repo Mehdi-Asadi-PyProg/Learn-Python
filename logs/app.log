@@ -1,0 +1,13 @@
+2026-07-26 15:25:28 | INFO     | root | This message goes only to the file 'logs/app.log'
+2026-07-26 15:25:28 | WARNING  | root | File logging is useful for production servers
+2026-07-26 15:25:28,323 | INFO     | root | 14-logging.py:300 | Application started with production logging setup
+2026-07-26 15:25:28,323 | DEBUG    | root | 14-logging.py:301 | This debug message goes only to the file
+2026-07-26 15:25:28,324 | INFO     | __main__.UserService | 14-logging.py:314 | Creating user: alice
+2026-07-26 15:25:28,324 | DEBUG    | __main__.UserService | 14-logging.py:318 | User validation passed
+2026-07-26 15:25:28,324 | INFO     | __main__.UserService | 14-logging.py:319 | User alice created successfully
+2026-07-26 15:25:28,324 | INFO     | __main__.UserService | 14-logging.py:314 | Creating user: 
+2026-07-26 15:25:28,324 | ERROR    | __main__.UserService | 14-logging.py:321 | Failed to create user
+Traceback (most recent call last):
+  File "e:\codes\Learn-Python\14-logging.py", line 317, in create_user
+    raise ValueError("Username cannot be empty")
+ValueError: Username cannot be empty
